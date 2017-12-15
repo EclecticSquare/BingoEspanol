@@ -1,0 +1,18 @@
+div .backgroundImage {
+    background: url(purpleConfetti.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+}
+.title {
+    padding-top: 25vh;
+    color: white;
+    font-size: 15vh;
+    font-weight: 900;
+}
+.playButton {
+    width: 200px;
+    margin: auto;
+}
