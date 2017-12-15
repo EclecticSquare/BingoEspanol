@@ -16,8 +16,9 @@ body {
     font-family: 'Patua One', cursive;
   }
 
-  .topMargin {
-      margin-top: 15vh;
+  .tableMargin {
+      margin-top: 10vh;
+      margin-bottom: 10vh;
   }
   table {
     width:100%; 

@@ -1,18 +1,14 @@
-button {
-    font-family: 'Patua One', cursive;
-    border:1px solid #666;
-    margin:1em 0; 
+#right, #left {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border:2px solid #666;
+    margin:10px; 
   }
-  button:hover {
-    cursor:pointer;
-  }
-  button:disabled{
-    opacity:.5;
-  }
-  button[name="reset"] {
-    transition: all 0.5s ease;
-    background-color:#eb878b;
-  }
-  button[name="new"] {
-    background-color:#b5d997;
-  }
+button:hover {
+  cursor:pointer;
+  background: blue;
+  color: white;
+}
+
+
+
+

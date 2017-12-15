@@ -1,28 +1,19 @@
 import React, { Component } from 'react';
 import ReactDom from 'react-dom';
 import {Button} from 'react-bootstrap';
+import FontAwesome from 'react-fontawesome';
+
 
 import './gameButtons.css';
 
 
 class Buttons extends Component {
-    render(){
+    render() {
         return(
             <div>
-                
-                <header>
-                    <button disabled name="reset">
-                    <i class="fa fa-refresh" aria-hidden="true"></i>
-                         Reset Card
-                    </button>
-                </header>
-
-                <header>
-                    <button name="new">
-                    <i class="fa fa-th" aria-hidden="true"></i>
-                        New Game
-                    </button>
-                </header>
+                <h1 className="display-4">Jugamos!</h1>
+                <button id="right" type="button" className="btn btn-lg">Reset Card</button>
+                <button id="left" type="button" className="btn btn-lg">New Game</button>
             </div>
         );
     }
