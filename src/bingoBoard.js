@@ -13,7 +13,7 @@ class BingoBoard extends Component {
             <div>
                 <Buttons />
                
-                <table>
+                <table className="topMargin">
                 <tr>
                     <td></td>
                     <td></td>
