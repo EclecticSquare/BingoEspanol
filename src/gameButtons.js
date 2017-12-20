@@ -6,7 +6,6 @@ import FontAwesome from 'react-fontawesome';
 
 import './gameButtons.css';
 
-
 class Buttons extends Component {
     render() {
         return(
