@@ -1,0 +1,15 @@
+
+.BingoBoxBack {
+    display: inline-block;
+    width: 170px;
+    height: 110px;
+    margin: 0.5px;
+    border: solid 3px gray;
+    background-color: white;
+    
+}
+
+img {
+    width: 150px;
+    padding-top: 25px;
+}

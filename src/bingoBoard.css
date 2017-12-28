@@ -49,7 +49,7 @@ body {
     border:1px solid #666;
     word-wrap:break-word;
     transition: all 0.5s ease; 
-    background-color:rgba(255,255,255,0.4);
+    
   }
   td:hover{
     cursor:pointer;
@@ -62,7 +62,9 @@ body {
     background-color:yellow;
     font-weight:bold;
   }
-  
-  .selected {
-    background-color:#b5d997;
+  /* .default {
+    background-color:rgba(255,255,255,0.4);
   }
+  .active {
+    background-color:#b5d997;
+  } */
