@@ -1,0 +1,9 @@
+.BoxFront {
+    display: inline-block;
+    width: 170px;
+    height: 110px;
+    border: solid 3px gray;
+    margin:3px auto 3px auto;
+    padding-top: 23px;
+
+}

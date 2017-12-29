@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import './App.css'
-import BingoBoard from './bingoBoard.js';
 import Intro from './gameIntro.js'
-import BingoBoxBack from './bingoBoxBack.js'
+import Buttons from './gameButtons.js'
+import BoxFront from './boxFront.js'
+import BuildBoard from './buildBoard.js'
 
 
 
@@ -12,10 +13,11 @@ class App extends Component {
       <div className="App">
         <Intro />
         <header className="App-header">
-          <h1 className="App-title"></h1>  
-          <BingoBoard />
-        </header>
-      </div>
+          <Buttons />
+        </header>  
+        <BuildBoard />       
+    </div>
+        
     );
   }
 }

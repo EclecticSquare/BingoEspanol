@@ -87,45 +87,21 @@ class BingoBoard extends Component {
 
         return(
             <div>
-                <Buttons />
-                <div>
-                    <BingoBoxBack />
-                    <BingoBoxBack />
-                    <BingoBoxBack />
-                    <BingoBoxBack />
-                    <BingoBoxBack />
+                <div className="BingoBoard">
+                    <div className='BingoBoxInner'>
+                        <div className='BingoBoxBack'></div>
+                        <div className='BingoBoxFront'>∆</div>
+                    </div>
                 </div>
-                <div>
-                    <BingoBoxBack />
-                    <BingoBoxBack />
-                    <BingoBoxBack />
-                    <BingoBoxBack />
-                    <BingoBoxBack />
-                </div>
-                <div>
-                    <BingoBoxBack />
-                    <BingoBoxBack />
-                    <BingoBoxBack />
-                    <BingoBoxBack />
-                    <BingoBoxBack />
-                </div>
-                <div>
-                    <BingoBoxBack />
-                    <BingoBoxBack />
-                    <BingoBoxBack />
-                    <BingoBoxBack />
-                    <BingoBoxBack />
-                </div>
-                <div>
-                    <BingoBoxBack />
-                    <BingoBoxBack />
-                    <BingoBoxBack />
-                    <BingoBoxBack />
-                    <BingoBoxBack />
-                </div>
-                <table className="tableMargin">
+
+
+
+
+
+
+                {/* <table className="tableMargin">
                     {rows.map((row) => <tr onClick={this.chosenSquare}>{row}</tr>)}
-                </table>
+                </table> */}
             </div>
         )
     }
