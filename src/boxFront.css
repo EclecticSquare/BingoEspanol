@@ -7,3 +7,13 @@
     padding-top: 23px;
 
 }
+
+.BoxFront:hover {
+    background-color: lightseagreen;
+    cursor: pointer;
+
+}
+
+.selected {
+    background-color: blueviolet;
+}

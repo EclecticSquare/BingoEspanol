@@ -1,10 +1,20 @@
 import React, {Component} from 'react';
 import './boxFront.css'
 
+
+
+
 class BoxFront extends Component {
-    render(){
+  
+
+
+    render() {
+        
+    
+
+
         return(
-            <div className='BoxFront'>
+            <div className={'BoxFront'} style={this.props.style} onClick = {this.props.select}>
                 {this.props.word}
             </div>
         )

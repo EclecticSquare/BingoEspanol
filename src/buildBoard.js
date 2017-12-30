@@ -8,10 +8,20 @@ class BuildBoard extends Component  {
         super();
         this.state = {
             words: [],
-            isFlipped: false
+            isFlipped: false,
+            bgcolor: 'purple'
         }
     }
     
+    chosenSquare = (event) => {
+        var count = this.state.words.map((index) => {
+            var newColor = this.state.bgColor == 'purple' ? 'black' : 'purple';
+            this.setState({bgColor: newColor})
+
+        })
+        
+        
+    }
     
     componentDidMount() {
         axios({
@@ -36,8 +46,12 @@ class BuildBoard extends Component  {
         console.log(this.state.words)
         
         var rowsJSX = this.state.words.map( (word, index) => {
-           console.log(word)
-           return <BoxFront word={word} key={index}/>
+           console.log(index)
+           
+           return <BoxFront word={word} 
+                            key={index}
+                            style={{background:this.state.bgColor}} 
+                            select={this.chosenSquare.bind(this, index)}/>
         
         } ) 
 
